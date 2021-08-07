@@ -112,13 +112,17 @@ body{
         margin: 50px 25px;
     }
 
-    .main{
+     .main{
         flex-direction: column;
         margin: 0;
+        align-items: center;
+        justify-content: center;
     }
 
     .text-section{
         margin-left: 0;
+        align-items: center;
+        justify-content: center;
     }
 
     .text-section h1{
