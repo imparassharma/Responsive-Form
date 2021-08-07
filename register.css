@@ -1,0 +1,195 @@
+body{
+    background-image: url(images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%) ;
+    font-family: 'Poppins';
+    overflow-y: hidden;
+}
+
+.main{
+    display: flex;
+    margin: 100px;
+}
+
+.text-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 650px;
+    color: white;
+    margin-left: 50px;
+}
+
+.text-section h1{
+    font-size: 48px;
+    width: 70%;
+    line-height: 55px;
+}
+
+.text-section p{
+    width: 80%;
+    margin-top: -10px;
+}
+
+.form-section{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.text-main{
+    display: flex;
+}
+
+.form{
+    width: 500px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 6px 5px 0px rgba(26, 26, 25, 0.486);
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.button0{
+    margin-bottom: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    font-size: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 4px 5px 0px rgba(26, 26, 25, 0.486);
+    border: none;
+}
+
+.button0 span{
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.row{
+    display: flex;
+    border-radius: 5px;
+    height: 50px;
+    width: 80%;
+    margin-bottom: 20px;
+    outline: none;
+    border: solid 0.5px hsla(246, 5%, 62%, 0.432);
+    text-indent: 25px;
+}
+
+.button1{
+    width: 82%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    box-shadow: 5px 4px 5px 0px rgba(6, 73, 9, 0.582);
+}
+
+.form p{
+    font-size: 10px;
+    margin-left: 80px;
+    color:hsl(246, 25%, 77%)
+}
+
+.form span{
+    color: red;
+}
+
+@media screen and (max-width: 400px) {
+
+    body{
+        margin: 50px 25px;
+    }
+
+    .main{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .text-section{
+        margin-left: 0;
+    }
+
+    .text-section h1{
+        font-size: 16px;
+        line-height: 25px;
+        margin-left: 25px;
+        width: 30%;
+    }
+
+    .text-section p{
+        font-size: 10px;
+        width: 30%;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .button0{
+        width: 200px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 25px;
+        padding-left: 45px;
+    }
+
+    .button0 h2{
+        font-size: 10px;
+        width: 80%;
+    }
+
+    .button0 span{
+        font-size: 8px;
+    }
+    
+    .form{
+        width: 200px;
+        height: 300px;
+        margin-top: 0;
+    }
+
+    .form form{
+        height: 200px;
+    }
+
+    .row{
+        width: 160px;
+        height: 30px;
+        margin-top: -20px;
+        margin-bottom: 30px;
+        text-indent: 10px;
+    }
+
+    form input{
+        font-size: 8px;
+    }
+
+    .button1{
+        height: 35px;
+        font-size: 8px;
+        font-weight: 600;
+        margin-top: -20px;
+    }
+
+    .form p{
+        width: 80%;
+        margin-left: 18px;
+        font-size: 2px;
+        text-align: center;
+    }
+
+    .form span{
+        font-size: 2px;
+    }
+
+}
